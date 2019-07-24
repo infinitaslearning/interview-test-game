@@ -1,0 +1,17 @@
+{
+    "git.ignoreLimitWarning": true,
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "cSpell.words": [
+        "animationcomplete",
+        "anims",
+        "dragon",
+        "fire",
+        "json",
+        "tiled",
+        "tilemap",
+        "tilemaps",
+        "tileset",
+        "tweens",
+        "yoyo"
+    ]
+}
