@@ -1,5 +1,5 @@
 const path = require('path');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const TSLintPlugin = require('tslint-webpack-plugin');
@@ -51,7 +51,7 @@ module.exports = {
         extensions: [".ts", ".js"]
     },
     plugins: [
-        new CleanWebpackPlugin([outputFolder]),
+        new CleanWebpackPlugin(),
         new CopyWebpackPlugin([
             {
                 from: "./src/assets",

@@ -1,5 +1,5 @@
 /* tslint:disable */
-import * as GameBoyFrag from "./GameBoy.frag";
+import GameBoyFrag from "./GameBoy.frag";
 
 // @ts-ignore
 export const GameBoy = new Phaser.Class({

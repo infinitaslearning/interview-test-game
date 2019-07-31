@@ -33,6 +33,10 @@
     "webpack-obfuscator": "^0.18.3"
   },
   "dependencies": {
+    "@types/escodegen": "0.0.3",
+    "escodegen": "0.0.2",
+    "joi-browser": "^13.4.0",
+    "module-core-tagging": "^1.0.19893",
     "phaser": "^3.18.1",
     "phaser-animated-tiles": "^2.0.2"
   }

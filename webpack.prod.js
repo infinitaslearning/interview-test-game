@@ -1,5 +1,5 @@
 const path = require('path');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const JavaScriptObfuscator = require('webpack-obfuscator');
@@ -48,7 +48,7 @@ module.exports = {
         extensions: [".ts", ".js"]
     },
     plugins: [
-        new CleanWebpackPlugin([outputFolder]),
+        new CleanWebpackPlugin(),
         new CopyWebpackPlugin([
             {
                 from: "./src/assets",
